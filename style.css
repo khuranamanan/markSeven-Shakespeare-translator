@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:wght@400;700&display=swap');
+
+:root{
+    --dark-brown: #8E3200;
+    --brown: #A64B2A;
+    --beige: #D7A86E;
+    --skin:  #FFEBC1;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Almendra', serif;
+    background-color: var(--skin);
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+nav {
+    background-color: var(--dark-brown);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5em;
+}
+
+.hero-img {
+    display: block;
+    margin: auto;
+    max-width: 200px;
+    height: auto;
+    border-radius: 100%;
+}
+
+#txt-input {
+    display: block;
+    width: 100%;
+    height: 6rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.btn-translate {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--brown);
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    border: none;
+}
+
+main h2{
+    margin: 1rem;
+}
+
+main .txt-output{
+    width: 100%;
+    height: 6rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: solid 1px var(--dark-brown);
+    font-size: 1rem;
+    background-color: white;
+}
+
+footer {
+    background-color: var(--dark-brown);
+    color: white;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
