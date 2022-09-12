@@ -45,6 +45,7 @@ nav {
     height: 6rem;
     padding: 1rem;
     margin: 1rem;
+    border-radius: 0.5rem;
 }
 
 .btn-translate {
@@ -56,6 +57,7 @@ nav {
     font-size: medium;
     font-weight: 700;
     border: none;
+    border-radius: 0.5rem;
 }
 
 main h2{
@@ -70,6 +72,7 @@ main .txt-output{
     border: solid 1px var(--dark-brown);
     font-size: 1rem;
     background-color: white;
+    border-radius: 0.5rem;
 }
 
 footer {
